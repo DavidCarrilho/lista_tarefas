@@ -74,6 +74,7 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         title: Text('Lista de Tarefas'),
         centerTitle: true,
+        leading: Icon(Icons.playlist_add_check),
         backgroundColor: Colors.blue,
         actions: <Widget>[
           IconButton(
